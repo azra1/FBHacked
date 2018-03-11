@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techfreaks.fbhacked.DisclaimerActivity">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/heading"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:text="TERMS AND CONDITION"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:padding="30dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:text="This is to inform that as a company and reputed app developer we are not doing anything illegal or related to hacking. It is just an app for prank purpose. Dont write in our reviews like fake and read the description for full details. We are not using any data of facebook or trying to get access any data without the user's permission. Use this app for fun purpose "
+        android:textSize="20dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content"
+        android:layout_margin="20dp"
+        android:id="@+id/radiogroup">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Agree"
+            android:text="  I Agree"
+            android:textSize="25dp"
+
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DontAgree"
+            android:text="  I Do Not Agree"
+            android:textSize="25dp"
+
+            />
+
+
+    </RadioGroup>
+
+</RelativeLayout>
